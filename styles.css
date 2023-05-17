@@ -26,7 +26,7 @@
 }
 
 .toggle-btn {
-    display: none;
+    display: BLOCK;
 }
 
 @media (max-width: 768px) {
