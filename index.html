@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Side Menu</title>
+    <title>Side Toggle Menu</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <script src="script.js"></script>
     <div class="container">
+        <button class="toggle-btn" onclick="toggleMenu()">Toggle Menu</button>
         <div class="menu" id="menu">
             <ul>
                 <li>Home</li>
@@ -16,10 +16,11 @@
             </ul>
         </div>
         <div class="content">
-            <button class="toggle-btn" onclick="toggleMenu()">Toggle Menu</button>
             <h1>Main Content</h1>
             <p>This is the main content of the page.</p>
         </div>
     </div>
-    </body>
+
+    <script src="script.js"></script>
+</body>
 </html>
