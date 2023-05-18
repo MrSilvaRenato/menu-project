@@ -20,6 +20,11 @@
 .menu ul {
     list-style: none;
     padding: 0;
+    display: none; /* Added */
+}
+
+.menu.open ul {
+    display: block; /* Added */
 }
 
 .menu li {
@@ -45,7 +50,7 @@
 
 .menu.open {
     width: 250px;
-    transform: translateX(0%); /* Added */
+    transform: translateX(0%);
 }
 
 .toggle-btn.open {
