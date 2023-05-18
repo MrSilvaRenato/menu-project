@@ -5,9 +5,14 @@
 .menu {
     background-color: #333;
     color: #fff;
-    width: 250px;
+    width: 0;
     transition: width 0.3s ease;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 20px;
 }
 
 .menu ul {
@@ -27,9 +32,8 @@
 
 .toggle-btn {
     position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+    top: 10px;
+    left: 10px;
     background-color: #333;
     color: #fff;
     border: none;
@@ -38,14 +42,8 @@
 }
 
 @media (max-width: 768px) {
-    .menu {
-        width: 0;
-        padding: 0;
-    }
-
     .menu.open {
         width: 250px;
-        padding: 10px;
     }
 
     .toggle-btn {
