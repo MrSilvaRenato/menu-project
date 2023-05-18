@@ -49,7 +49,7 @@
 }
 
 .menu.open {
-    width: 250px;
+    width: 300px;
     transform: translateX(0%);
 }
 
