@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    overflow: hidden; /* Added */
+    overflow: hidden;
 }
 
 .menu {
@@ -14,7 +14,7 @@
     left: 0;
     height: 100vh;
     padding: 20px;
-    transform: translateX(-100%); /* Updated */
+    transform: translateX(-100%);
 }
 
 .menu ul {
@@ -45,6 +45,7 @@
 
 .menu.open {
     width: 250px;
+    transform: translateX(0%); /* Added */
 }
 
 .toggle-btn.open {
